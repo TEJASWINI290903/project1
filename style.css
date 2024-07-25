@@ -1,0 +1,27 @@
+p{
+    text-align: center;
+    text-align: justify;
+    text-emphasis-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    text-align: center;
+}
+ol{
+    background-color: darkorange;
+    margin: 20px;
+    padding-left: 30px;
+    border: 10px solid black;
+}
+ul{
+    background-color: fuchsia;
+    margin: 20px;
+    padding-left: 30px;
+    border: 10px solid black;
+}
+li
+{
+    background-color: rgb(81, 165, 42);
+    height: 40px;
+    width: 50px;
+}
