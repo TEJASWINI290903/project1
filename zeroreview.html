@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <style>
-       body
-       {
-        background-color: burlywood;
+       body{
+        background-color: blueviolet;
        }
        a
        {
@@ -32,11 +31,17 @@
         .item
         {
             padding-right: 30px;
+
         }
-        table{
+        .item:hover{
+            background-color: rgb(206, 72, 94);
+        }
+        table,th,td{
             text-align: center;
             border: 2px solid black;
             border-collapse: collapse;
+            width: 100px;
+            height: 100px;
         }
         .t
         {
@@ -46,35 +51,50 @@
         {
             text-align: left;
         }
+        .right-align
+        {
+            float: center;  
+            border-radius: 50%;  
+        margin-left: 640px;
+        margin-right: auto;
+
+      }
     </style>
 </head>
 <body>
     <nav>
         <div class="tt">
-            <h1>PORTFOLIO</h1>
+            <h1>TEJU's-PORTFOLIO</h1>
             <ul class="ul1">
                 <li class="item"><a href="#Home">HOME</a></li>
                 <li class="item"><a href="#About">ABOUT</a></li>
                 <li class="item"><a href="#Education">EDUCATION</a></li>
+                <li class="item"><a href="#Project">PROJECT</a></li>
                 <li class="item"><a href="#Skills">SKILLS</a></li>
                 <li class="item"><a href="#Contact">CONTACT</a></li>
             </ul>
         </div>
         </nav>
         <br>
-        <section id="#Home">
-        <h1>HOME</h1>
+        <section id="Home">
+        <h1 style="text-align: center;">HOME</h1>
+        <h1 style="text-align: center;"><i>HELLO!! IT'S TEJASWINI HERE</i></h1>
         </section>
         <a href="TEJASWINI.RESUME.pdf" target="_blank">
-            <img src="https://i.pinimg.com/564x/eb/a6/fb/eba6fb3f4f84d5bdb4af3e057d74ffab.jpg" height="1%" width="15%">
+            <img src="https://i.pinimg.com/564x/eb/a6/fb/eba6fb3f4f84d5bdb4af3e057d74ffab.jpg" class="right-align" height="1%" width="15%">
         </a>
-    <h1>ABOUT</h1>
-    <p><i>My Name is TEJASWINI DN. I am doing my UG in B.E ECE(3rd year) in Sri Krishna College of Engineering and Technology,Coimbatore</i></p>
-    <p><i>Hardworking student seeking employment. Ready to utilize my skills
-        and passion to towards the mission of a company. Bringing a positive
-        attitude and the willingness and motivation to learn new programs.</i></p>
-    <h1>EDUCATION</h1>    
-        <table>
+         <section id="About">
+    <h1 style="text-align: center;">ABOUT</h1>
+    <p style="text-align: center;"><i>I am  a hardworking student seeking employment.<br>Ready to utilize my skills
+        and passion to towards the mission of a company.<br> Bringing a positive
+        attitude and the willingness and motivation to learn new programs.<br> I am dedicated to web developer with a knack for building dynamic and responsive websites.
+         <br>I'm passionate about coding and always eager to learn new technologies. <br>My expertise includes HTML, CSS, JavaScript, React, and Node.js, along with proficiency in C++, Python, and Java.
+    </i></p>
+         </section>
+         <section id="Education">
+            <hr>
+    <h1 style="text-align: center;">EDUCATION</h1>    
+        <center><table style="text-align: center;">
             <tr style="background-color: lightgray;">
                 <th style="width: 15%;"><b><form><label>COURSE</label></form></b></th>
                 <th style="width: 50%;" ><b><form><label>SCHOOL/COLLEGE</label></form></b></th>
@@ -100,20 +120,47 @@
                 <td><form><label>90.3%</label></form></td>
             </tr>
         </table>
-        <h1>SKILLS</h1>
-        <h4>TECHNICAL SKILLS</h4>
-        <ul>
+        </center>
+         </section>
+         <section id="Project">
+            <hr>
+            <h1 style="text-align: center;">PROJECT</h1>
+            <ul style="text-align: center; list-style-type: none;">
+                <li>Mini-project:Hazardous gas sensor</li>
+                <li>HA10</li>
+                <li>Craftsman</li>
+                <li>Terminal box</li>
+                <li>Panel requirement</li>
+            </ul>
+         </section>
+         <section id="Skills">
+            <hr>
+        <h1 style="text-align: center;">SKILLS</h1>
+        <h4 style="text-align: center;">TECHNICAL SKILLS</h4>
+        <ul style="text-align: center; list-style-type: none;">
            <li>C</li>
            <li>JAVA</li>
            <li>PYTHON</li>
            <li>SQL</li>
         </ul>         
-        <h4>PERSONAL SKILLS:</h4>
-        <ul>
+        <h4 style="text-align: center;">PERSONAL SKILLS</h4>
+        <ul style="text-align: center;list-style-type: none;">
            <li>Leadership</li> 
            <li>Team work</li>
            <li>Ability to learn quickly</li>
            <li>Good in communication</li>
         </ul> 
+         </section>
+         <section id="Contact">
+            <hr>
+            <h1 style="text-align: center;">CONTACT</h1>
+            <div style="display: flex;">
+            <div><ul style="padding-left: 400px;"><li style="padding-right: 50px; list-style-type: none;"><a href="mailto:tejaswininithi@gmail.com"><h5>Email Address: tejaswininithi.com</h5></a></li> </div>
+            <div><li style="padding-right: 50px; list-style-type: none;"><h5><b>Phn.No: </b><a href="tel:+917904331465"><i>7904331465</i></a></h5></li></div>
+
+            <div><li style="padding-right: 50px; list-style-type: none;"><a href="https://www.linkedin.com/in/tejaswini-nithi-b26536258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><h5>LINKEDIN PROFILE</h5></a></li></div>
+            <div><li style="padding-right: 50px; list-style-type: none;"><a href="https://github.com/TEJASWINI290903"><h5>GITHUB PROFILE</h5></a></li></div>
+            </div>
+         </section>
 </body>
 </html>
